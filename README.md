@@ -2,6 +2,8 @@
 
 <div align="center">
 
+Edit
+
 # JFrog Extension for VS Code & Eclipse Theia
 
 ![JFrog Extension Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/JFrog.jfrog-vscode-extension?label=VS%20Code%20installs&color=blue&style=for-the-badge)
