@@ -10,6 +10,11 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
 
+    - uses: jfrog-fastci/fastci@main  # Use the FastCI optimization action
+      with:
+        github_token: ${{secrets.GITHUB_TOKEN}}
+        fastci_otel_token: ${{ secrets.COROLOGIX_OTEL_TOKEN }}      
+
     - name: Detect SVG in readme
       run: |
         # Run grep command to match URLs containing .svg in the readme.md
